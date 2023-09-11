@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://portal.sso.us-east-2.amazonaws.com/saml/assertion/MDg5MjEyOTAwMTk2X2lucy1kNmVkZjcyYWI3M2Y1NDlj">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDBjCCAe6gAwIBAgIEGbaHFDANBgkqhkiG9w0BAQsFADBFMRYwFAYDVQQDDA1hbWF6b25hd3MuY29tMQ0wCwYDVQQLDARJREFTMQ8wDQYDVQQKDAZBbWF6b24xCzAJBgNVBAYTAlVTMB4XDTIzMDkxMTIxMzIyN1oXDTI4MDkxMTIxMzIyN1owRTEWMBQGA1UEAwwNYW1hem9uYXdzLmNvbTENMAsGA1UECwwESURBUzEPMA0GA1UECgwGQW1hem9uMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOwq5XMSOKZ7e2wLZO6R8TEdZZQ8Q+9DIkU8Mj2IuE+QcCLqabsZOGX0NG1M03qNBIfwpak/2bdpYEUmi1tNL4RjrN9epkyIjOF1N3Y69axiONQrsTkiZX9BvxJKPP1iDsMMSnBMSZl9ppA8kF4my4HIggnT6waCrSjrynfBqUSN3hEdDU7Iw9EQmcUM6MK/Vqc9BkKGS60mgscpKqB0U6yA3Gny6iQYna/YcDvHjz6ywqodLBaOCPvn3R8SNbKsIp3ntL0RyS+z+Y9Z3DoOmDY8W8jo940JlfG2g/R842zYolJMiXsuD4SnaKaYErC2Z4vKvTwjX6SWdEIDSyKxt6UCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEABdIUfalKdB7W5yzOtyduKaoVq4E5i/fN6reoEFFJNjfD0nkXVrn4pngCjKjcn8H7kYMX6hJwIpB/w6U7xGW1TJQegUBHgtXGRS8JNOrNDRTXWywLWdyASlNzKBxYMvSVk9y8qlZvzpNkJPkupvcoP600+OAQXyE5akdmKWHgxyH3uch2W3cf4363gsB+NcmBwtF29vHxi8o49grNDGLmDPzacE+YkJ5wC1/BqRbWhMdD0JStPBG4xZ/z4cqKwpgA2haqgKqDbDzPOh/5rMGgGtB7mCqhREFmA9eS43MVOGVWkYqjsISogZujDH4pb3iQx+CxLvZvRLONuwJn92woug==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portal.sso.us-east-2.amazonaws.com/saml/logout/MDg5MjEyOTAwMTk2X2lucy1kNmVkZjcyYWI3M2Y1NDlj"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://portal.sso.us-east-2.amazonaws.com/saml/logout/MDg5MjEyOTAwMTk2X2lucy1kNmVkZjcyYWI3M2Y1NDlj"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portal.sso.us-east-2.amazonaws.com/saml/assertion/MDg5MjEyOTAwMTk2X2lucy1kNmVkZjcyYWI3M2Y1NDlj"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://portal.sso.us-east-2.amazonaws.com/saml/assertion/MDg5MjEyOTAwMTk2X2lucy1kNmVkZjcyYWI3M2Y1NDlj"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
